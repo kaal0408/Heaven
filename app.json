@@ -1,0 +1,50 @@
+{
+  "name": "Pyrogram userbot",
+  "logo": "",
+  "description": "A Powerfull telegram bot",
+  "keywords": [
+    "Telegeam",
+    "Bot",
+    "Pyrogram"
+    ],
+  "repository": "https://github.com/kaal0408/Pyrogram",
+  "website": "https://github.io/LoverboyXD",
+  "env": {
+    "API_ID": {
+      "description": "Your telegram integer API_ID",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API_HASH",
+      "value": "",
+      "required": true
+    },
+    "SESSION_NAME": {
+      "description": "Your String session herr",
+      "value": "",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "Give the Value on ON/OFF",
+      "value": "",
+      "required": false
+    },
+    "OWNER_IDS": {
+      "description": "Your Telegram Account ID in intger",
+      "Value": "",
+      "required": true
+    }, 
+    "OWNER_USERNAME": {
+      "description": "Your Tg Username",
+      "value": "",
+      "required": true
+    },
+    "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+   }]
+  }
+}

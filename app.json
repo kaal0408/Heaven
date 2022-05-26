@@ -12,12 +12,12 @@
   "env": {
     "API_ID": {
       "description": "Your telegram integer API_ID",
-      "value": "",
+      "value": "7418516",
       "required": true
     },
     "API_HASH": {
       "description": "Your Telegram API_HASH",
-      "value": "",
+      "value": "cb9bddd3aafffbca93d48c09b7cf9bf1",
       "required": true
     },
     "SESSION_NAME": {
@@ -32,12 +32,12 @@
     },
     "OWNER_IDS": {
       "description": "Your Telegram Account ID in intger",
-      "Value": "",
+      "Value": "1964484446",
       "required": true
     }, 
     "OWNER_USERNAME": {
       "description": "Your Tg Username",
-      "value": "",
+      "value": "@MUSICXVIDEO_PLAYER",
       "required": true
     },
     "addons": [{

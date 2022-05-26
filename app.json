@@ -27,7 +27,7 @@
     },
     "PMPERMIT": {
       "description": "Give the Value on ON/OFF",
-      "value": "",
+      "value": "ENABLE",
       "required": false
     },
     "OWNER_IDS": {

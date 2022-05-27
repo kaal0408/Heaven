@@ -1,6 +1,6 @@
 from os import getenv
 from dotenv import load_dotenv
-import is
+import os
 
 load_dotenv()
 que = {}

@@ -1,6 +1,6 @@
 {
-	"name": "Asterix",
-	"description": "Asterix Is A Multifunctional Telegram Userbot with Custom Settings.",
+	"name": "Heaven",
+	"description": "Heaven Is A Multifunctional Telegram Userbot with Custom Settings.",
 	"logo": "https://telegra.ph/file/467a20658b7e7ab6a72b5.jpg",
 	"keywords": [
 		"userbot",
@@ -10,8 +10,8 @@
 		"pyrogram",
 		"productivity"
 	],
-	"repository": "https://github.com/TeamAsterix/AsterixUB/",
-	"website": "https://t.me/teamasterix",
+	"repository": "https://github.com/kaal0408/Heaven/",
+	"website": "https://t.me/Murat_30_God",
 	"success_url": "/welcome",
 	"env": {
 		"API_ID": {

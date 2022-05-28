@@ -16,7 +16,7 @@ class Strings(object):
 
     def closed_menu_string(self):
         return f"""
-			Welcome to Asterix World.
+			Welcome to Heaven World.
 			This is your Helpdex, Tap on open button to get more buttons which will help you to understand & operate your userbot & assistant.
 
 			• Menu is closed

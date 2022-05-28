@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 -m asterix
+python3 -m Heaven

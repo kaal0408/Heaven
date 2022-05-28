@@ -27,7 +27,7 @@ class Config(object):
     TEMP_DICT = os.getenv("TEMP_DICT", os.path.abspath(".") + "/downloads/")
     # official repo for updates
     UPSTREAM_REPO = os.getenv(
-        "UPSTREAM_REPO", "https://github.com/TeamAsterix/AsterixUB.git"
+        "UPSTREAM_REPO", "https://github.com/kaal0408/Heaven.git"
     )
     # ------------------
     # heroku api key (required -> if hosted on heroku)
@@ -59,7 +59,7 @@ class Config(object):
     # custom  pmpermit security text (optional)
     PMPERMIT_TEXT = os.getenv(
         "PMPERMIT_TEXT",
-        "Hey ! This is [ Asterix Userbot](https://t.me/TeamAsterix) Security System.\n**You will be blocked if you spammed my owner's pm**\nCurrently My Owner is busy! So Wait Until He Arrives. 👍🏻\nAnd Better Not To Spam His here!",
+        "Hey ! This is [ Heaven Userbot](https://t.me/Murat_30_God) Security System.\n**You will be blocked if you spammed my owner's pm**\nCurrently My Owner is busy! So Wait Until He Arrives. 👍🏻\nAnd Better Not To Spam His here!",
     )
     # pmpermit warn limit (optional)
     PM_LIMIT = int(os.getenv("PM_LIMIT", 4))
@@ -79,10 +79,10 @@ class Config(object):
     # --------------------
     # this bio will be shown in '/help' menu (default: official bio from bot)
     BOT_BIO = os.getenv("BOT_BIO")
-    # your assistants custom name (default: Kushina)
-    BOT_NAME = os.getenv("BOT_NAME", "Kushina")
+    # your assistants custom name (default: Heaven)
+    BOT_NAME = os.getenv("BOT_NAME", "Heaven")
     # your assistants alive pic (optional)
-    BOT_PIC = os.getenv("BOT_PIC", "https://telegra.ph/file/3930fb44de59f65849f5b.jpg")
+    BOT_PIC = os.getenv("BOT_PIC", "https://telegra.ph/file/acd5abe21655b9576a279.jpg")
     # provide this if bot fails to get username of bot (optional)
     BOT_USERNAME = os.getenv("BOT_USERNAME")
     # telegram id of bot if failed to get automatically (optional)
@@ -91,9 +91,9 @@ class Config(object):
     TOKEN = os.getenv("TOKEN")
     # ---------------------
     # thumbnail used while uploading plugins, etc. (optional)
-    THUMB_PIC = os.getenv("THUMB_PIC", "material/images/asterix.png")
+    THUMB_PIC = os.getenv("THUMB_PIC", "https://telegra.ph/file/acd5abe21655b9576a279.jpg")
     # ---------------------
-    # your telegraph account name (default: Asterixuserbot)
+    # your telegraph account name (default: Heaven)
     TL_NAME = os.getenv("TL_NAME")
     # this will be shown before (as a prefix) the texts in the help dex (default: None)
     HELP_EMOJI = os.getenv("HELP_EMOJI")

@@ -3,12 +3,12 @@ class Variables(object):
     message_ids = {}
 
     # assistant
-    assistant_name = "Kushina"
+    assistant_name = "Heaven"
     assistant_age = "18"
     assistant_gender = "Female"
 
     # userbot
-    userbot_name = "Asterix"
+    userbot_name = "Heaven"
 
     # photo
-    PIC = "https://telegra.ph/file/38eec8a079706b8c19eae.mp4"
+    PIC = "https://telegra.ph/file/acd5abe21655b9576a279.jpg"

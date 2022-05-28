@@ -5,9 +5,9 @@ import time
 from pyrogram import __version__ as pyro_version
 from telegraph import Telegraph
 
-from asterix.database import Database
-from asterix.helpers import Helpers
-from asterix.pyrogramx.methods import Methods
+from Heaven.database import Database
+from Heaven.helpers import Helpers
+from Heaven.pyrogramx.methods import Methods
 from config import Config
 
 
@@ -25,13 +25,12 @@ class Utils(Methods, Config, Database, Helpers):
 
     # owner details /
 
-    owner_name = "🆂нιναηѕн 🇮🇳[Oғғʟιɴᴇ]"
-    owner_id = 1986676404
-    owner_username = "@Ryoishin"
+    owner_name = "Manjeet"
+    owner_username = "@Hayat_Murat_30"
 
     # other /
 
-    Repo = "https://github.com/TeamAsterix/AsterixUB.git"
+    Repo = "https://github.com/kaal0408/Heaven.git"
     StartTime = time.time()
 
     # debugging /
@@ -48,5 +47,5 @@ class Utils(Methods, Config, Database, Helpers):
 
     telegraph = Telegraph()
     telegraph.create_account(
-        short_name=Config.TL_NAME if Config.TL_NAME else "Asterix Userbot"
+        short_name=Config.TL_NAME if Config.TL_NAME else "Heaven Userbot"
     )

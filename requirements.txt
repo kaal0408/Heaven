@@ -26,4 +26,3 @@ search-engine-parser
 qrcode
 bing-image-downloader
 pysimplelog
-ryoishin

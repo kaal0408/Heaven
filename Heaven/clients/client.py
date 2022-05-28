@@ -4,7 +4,7 @@ from .utils import Utils
 
 
 class SuperClient(Utils, Client):
-    """Userbot (asterix)"""
+    """Userbot (Heaven)"""
 
     def __init__(self):
         super().__init__(
@@ -28,11 +28,11 @@ class SuperClient(Utils, Client):
         self.bot = self.Bot()  # workaround
 
     class Bot(Client, Utils):
-        """Assistant (Kushina)"""
+        """Assistant (Heaven)"""
 
         def __init__(self):
             super().__init__(
-                session_name="Kushina",
+                session_name="Heaven",
                 api_id=self.API_ID,
                 api_hash=self.API_HASH,
                 bot_token=self.TOKEN,

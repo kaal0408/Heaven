@@ -2,7 +2,7 @@ import asyncio
 
 from pyrogram import idle
 
-from asterix.clients import app
+from Heaven.clients import app
 
 loop = asyncio.get_event_loop()
 
@@ -41,17 +41,17 @@ async def start_bot():
     clients custom 'import_module' to start clients & import modules.
     """
     print(
-        "___________________________________. Welcome to Asterix World .___________________________________\n\n\n"
+        "___________________________________. Welcome to Heaven World .___________________________________\n\n\n"
     )
     print("PLUGINS: Installing.\n\n")
-    plugins = app.import_module("asterix/plugins/", exclude=app.NoLoad())
+    plugins = app.import_module("Heaven/plugins/", exclude=app.NoLoad())
     print(f"\n\n{plugins} plugins Loaded\n\n")
     print("MODULES: Installing.\n\n")
-    modules = app.import_module("asterix/modules/", exclude=app.NoLoad())
+    modules = app.import_module("Heaven/modules/", exclude=app.NoLoad())
     print(f"\n\n{modules} modules Loaded\n\n")
     await start_assistant()
     await start_userbot()
-    print("You successfully deployed Asterix Userbot, try .ping or .alive to test it.")
+    print("You successfully deployed Heavem Userbot, try .ping or .alive to test it.")
     await idle()  # block execution
 
 

@@ -1,2 +1,2 @@
-from asterix.clients import app
-from asterix.helpers import gen, regex
+from Heaven.clients import app
+from Heaven.helpers import gen, regex

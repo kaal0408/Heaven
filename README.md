@@ -3,6 +3,7 @@
 
 Generate-pyrogram-session-string - Replit
 [![string session](https://img.shields.io/badge/Heaven-userbot-String-yellowgreen)](https://replit.com/@dashezup/generate-pyrogram-session-string)
+[![GenerateString](https://img.shields.io/badge/MAMBAXSPAM-String-yellowgreen)](https://replit.com/@dashezup/generate-pyrogram-session-string) 
 
 🔥 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊 🔥
 
